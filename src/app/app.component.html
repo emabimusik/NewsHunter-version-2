@@ -1,21 +1,129 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/cli">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
 
+<div class="alert-container">
+
+</div>
+
+<!--top nav & branding-->
+<header class="site-header-sm sticky">
+  <!--top navbar & brand-->
+    <nav class="navbar navbar-default">
+
+      <div class="container">
+        <!--toggle button and brand!-->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="true" aria-controls="navbar">
+            <span class="glyphicon glyphicon-option-vertical"></span>
+          </button>
+          <button type="button" class="navbar-toggle for-sidebar" data-toggle="offcanvas">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand logo" href="/"> world headlines </a>
+        </div>
+        <!-- END Toggle buttons and brand -->
+        <!-- Top navbar -->
+        <div id="navbar" class="collapse navbar-collapse js-navbar-collapse" aria-expanded="true" role="banner">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="/">General</a></li>
+            <li><a href="/category/technology/">Technology</a></li>
+            <li><a href="/category/sports/">Sports</a></li>
+            <li><a href="/category/business/">Business</a></li>
+            <li><a href="/category/health/">Health</a></li>
+            <li><a href="/category/entertainment/">Entertainment</a></li>
+            <li><a href="/category/science/">Science</a></li>
+            <li><a class="is-outlined" href="/breaking_news/">Breaking News</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About Me<span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://www.facebook.com/eaba2015 " target="_blank" title="My account on facebook"><i class="fa fa-facebook fa-lg"></i> Facebook</a></li>
+                <li><a href="https://twitter.com/emabia1" target="_blank" title="My account on twitter"><i class="fa fa-twitter fa-lg"></i> Twitter</a></li>
+                <li><a href="https://plus.google.com/id" target="_blank" title="My account on google-plus"><i class="fa fa-google-plus fa-lg" target="_blank"></i> Google plus</a></li>
+                <li><a href="https://www.instagram.com/id/" target="_blank" title="My Account on instagram"><i class="fa fa-instagram fa-lg"></i> Instagram</a></li>
+                <li><a href="https://www.linkedin.com/in/id/" title="My account on linkedin"><i class="fa fa-linkedin fa-lg"></i> Linkedin</a></li>
+
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="fa fa-search fa-2x"></span></a>
+              <ul class="dropdown-menu container">
+                <li>
+                  <div>
+                    <form id="searchform" action="/everything/" method="POST" role="search" accept-charset="utf-8">
+                      <input type="hidden" name="csrfmiddlewaretoken" value="mqfiuIB7PG1uT81uCvRrjye9a2xgLvdohuc45ztq09qMSZkzmj6efql9jiTNWzX8">
+
+                      <div class="input-group input-group-lg">
+                        <input type="text" class="form-control" name="search_text" required="" placeholder="Search through millions of articles from over 5,000 sources for exemple : cnn, africa ,  ...">
+                        <span class="input-group-btn">
+                                        <button class="btn btn-danger" type="reset" data-toggle="dropdown"><span class="fa fa-close"></span></button>
+                                    </span>
+                      </div>
+                    </form>
+                  </div>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </nav>
+
+
+</header>
+<main class="container" style="min-height: 7920px;">
+
+
+  <div class="row">
+    <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- responsive ad 1 -->
+    <ins class="adsbygoogle" style="display: block; height: 90px;" data-ad-client="ca-pub-3571661469690807" data-ad-slot="9072796972" data-ad-format="auto" data-adsbygoogle-status="done"><ins id="aswift_0_expand" style="display:inline-table;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:1170px;background-color:transparent;"><ins id="aswift_0_anchor" style="display:block;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:1170px;background-color:transparent;"><iframe width="1170" height="90" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_0" name="aswift_0" style="left:0;position:absolute;top:0;border:0px;width:1170px;height:90px;"></iframe></ins></ins></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
+  <div class="row">
+    <!-- Sidebar -->
+    <aside id="sidebar" class="col-sm-3 sidebar">
+      <ul class="nav sidenav sticky ps ps--theme_default" data-ps-id="a2cb5162-e06c-80fa-5f64-42b64909536d">
+        <li><a href="#"><img src="/assets/images/abc-news.png" class="img-rounded" alt="" width="20" height="20"> ABC News</a></li>
+      </ul>
+      </aside>
+    </div>
+</main>
+<!--
+<nav  class="navbar is-primary">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="#" style="font-weight:bold">New Headline Hunter</a>
+      <span class="navbar-burger burger" data-target="navMenu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </span>
+    </div>
+    <div id="navMenu" class="navbar-menu">
+      <div class="navbar-end">
+        <a href="#" class="navbar-item is-active">General</a>
+        <a href="#" class="navbar-item ">Tchnology</a>
+        <a href="#" class="navbar-item ">Sport</a>
+        <a href="#" class="navbar-item ">Business</a>
+        <a href="#" class="navbar-item ">Health</a>
+        <a href="#" class="navbar-item ">Entertainement</a>
+        <a href="#" class="navbar-item ">Science</a>
+        <a href="#" class="navbar-item ">Breacking news</a>
+        <a href="#" class="navbar-item">About Me</a>
+
+      </div>
+    </div>
+
+
+
+  </div>
+
+
+
+</nav>
+!-->
 <router-outlet></router-outlet>
